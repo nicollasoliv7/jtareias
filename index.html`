@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JT AREIAS | Exclusividade em Terraplanagem</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise-overlay"></div>
+
+    <nav class="nav-bar">
+        <div class="nav-left">JT—AREIAS | 2026</div>
+        <div class="nav-center"></div>
+        <div class="nav-right">INVITE ONLY</div>
+    </nav>
+
+    <section class="hero">
+        <div class="pre-title">
+            <span class="line"></span>
+            <span class="text">A Base Sólida da sua Obra</span>
+        </div>
+        <h1 class="main-title">
+            <span class="title-back">JT AREIAS</span>
+            <span class="title-front">JT AREIAS</span>
+        </h1>
+        <p class="hero-subtitle">
+            Fornecimento de areia, pedras e terraplanagem com rigor técnico e compromisso absoluto.
+        </p>
+        <a href="#contato" class="cta-button">Solicitar Acesso</a>
+    </section>
+
+    <div class="bottom-divider"></div>
+
+    <section class="bottom-grid">
+        <div class="exclusivity-statement">
+            Atuamos com excelência no fornecimento de materiais para construção civil, transformando a terra em fundações inabaláveis. Honestidade e pontualidade como pilares de cada entrega.
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="label">Operação Regional Ativa • Passos/MG</span>
+            </div>
+        </div>
+
+        <div class="email-capture" id="contato">
+            <form class="form-group">
+                <input type="email" class="form-input" placeholder="Seu e-mail ou WhatsApp" required>
+                <button type="submit" class="form-submit">Enviar</button>
+            </form>
+            <span class="form-caption">Zero spam. Apenas utilidade e agilidade.</span>
+        </div>
+    </section>
+
+    <div class="rotating-badge">
+        <svg viewBox="0 0 100 100">
+            <defs>
+                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+            </defs>
+            <circle cx="50" cy="50" r="48" fill="none" stroke="#35211A" stroke-width="1" />
+            <text>
+                <textPath href="#circlePath">
+                    ENTREGA RÁPIDA • ATENDIMENTO REGIONAL •
+                </textPath>
+            </text>
+        </svg>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
