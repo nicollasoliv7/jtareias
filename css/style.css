@@ -274,15 +274,38 @@ body {
 }
 
 .offering-item {
+    position: relative;
     background-color: var(--bg-color);
     padding: 3rem 2rem;
     display: flex;
     gap: 2rem;
-    transition: background-color 0.3s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
 }
 
-.offering-item:hover {
-    background-color: #222;
+.offering-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    filter: grayscale(100%) brightness(30%);
+    z-index: 0;
+}
+
+.offering-item:hover::before {
+    opacity: 0.4;
+}
+
+.offering-item > * {
+    position: relative;
+    z-index: 1;
 }
 
 .item-num {
