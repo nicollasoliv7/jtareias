@@ -86,12 +86,20 @@ body {
 }
 
 .nav-logo {
-    font-family: var(--font-display);
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: -0.02em;
-    font-size: 1.2rem;
-    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    filter: brightness(0) invert(1);
+    transition: opacity 0.3s ease;
+}
+
+.nav-logo:hover .logo-img {
+    opacity: 0.8;
 }
 
 .nav-links {
