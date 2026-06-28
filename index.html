@@ -3,142 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JT AREIAS | Terraplanagem & Materiais</title>
+    <title>JT AREIAS | Digital Luxury</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 </head>
-<body class="theme-dark">
-    <div class="noise-overlay"></div>
+<body>
+    <!-- Atmospheric Light Leaks -->
+    <div class="light-leak orange"></div>
+    <div class="light-leak blue"></div>
 
-    <header class="main-header">
-        <nav class="nav-container">
-            <div class="nav-brand">JT—AREIAS <span class="year">2026</span></div>
-            <div class="nav-spacer"></div>
-            <div class="nav-status">ESTADO: ATIVO</div>
-        </nav>
+    <header class="main-nav">
+        <div class="nav-container">
+            <div class="nav-logo">JT AREIAS</div>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#materiais">Materiais</a>
+                <a href="#contato" class="btn-nav">Contato</a>
+            </div>
+        </div>
     </header>
 
     <main>
+        <!-- Hero Section -->
         <section class="hero">
-            <div class="hero-wrapper">
-                <div class="hero-label">
-                    <span class="line"></span>
-                    <span class="text">EXCELÊNCIA EM MATERIAIS</span>
+            <div class="hero-visual">
+                <div class="image-wrapper">
+                    <img src="https://images.unsplash.com/photo-1589939705384-5796fbc2565a?auto=format&fit=crop&q=80&w=1200" alt="Industrial Luxury" class="hero-img">
                 </div>
-                <h1 class="hero-title">
-                    <span class="title-back">JT AREIAS</span>
-                    <span class="title-front">JT AREIAS</span>
-                </h1>
-                <p class="hero-subtitle">
-                    A base sólida para a sua obra. Fornecimento de areia, pedras e terraplanagem com rigor técnico e compromisso absoluto.
-                </p>
-                <div class="hero-cta">
-                    <a href="https://wa.me/5535998070905" class="btn-primary">Solicitar Orçamento</a>
+                <h1 class="hero-title">JT AREIAS</h1>
+                <div class="hero-description">
+                    <p>Construindo as fundações do amanhã com a precisão do hoje. A convergência entre força bruta e rigor técnico.</p>
                 </div>
             </div>
         </section>
 
-        <section class="manifesto">
+        <!-- Stats Grid -->
+        <section class="stats-grid">
             <div class="container">
-                <div class="manifesto-grid">
-                    <div class="manifesto-text">
-                        <h2 class="section-label">O Manifesto</h2>
-                        <p class="manifesto-content">
-                            Há 6 anos, a JT Areias atua com excelência no fornecimento de materiais essenciais. Como uma empresa familiar, construímos nossa trajetória com base na honestidade, no compromisso e na dedicação, conquistando a confiança de clientes em toda a região de Passos/MG.
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <span class="stat-label">Experiência</span>
+                        <span class="stat-value">06 ANOS</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Localização</span>
+                        <span class="stat-value">PASSOS / MG</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Compromisso</span>
+                        <span class="stat-value">100% RIGOR</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-label">Qualidade</span>
+                        <span class="stat-value">PREMIUM</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content Block: About -->
+        <section class="content-block" id="sobre">
+            <div class="container">
+                <div class="editorial-grid">
+                    <div class="editorial-index">01</div>
+                    <div class="editorial-content">
+                        <h2 class="editorial-title">O Manifesto</h2>
+                        <p class="editorial-text">
+                            A JT Areias não fornece apenas materiais; entregamos a segurança necessária para que cada projeto arquitetônico alcance sua plenitude. Operamos sob a premissa da honestidade absoluta e a dedicação familiar, transformando a terra em pilares inabaláveis para a região de Passos.
                         </p>
-                    </div>
-                    <div class="manifesto-status">
-                        <div class="status-card">
-                            <span class="dot"></span>
-                            <span class="status-text">OPERAÇÃO REGIONAL ATIVA</span>
-                        </div>
+                        <a href="#materiais" class="explore-link">Explorar Materiais <span>→</span></a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="offerings">
+        <!-- Gallery / Materials -->
+        <section class="gallery" id="materiais">
             <div class="container">
-                <h2 class="section-label">Portfólio de Materiais</h2>
-                <div class="offerings-grid">
-                    <div class="offering-item" style="--bg-image: url('https://images.unsplash.com/photo-1590069414567-99933175f16e?auto=format&fit=crop&q=80&w=800')">
-                        <span class="item-num">01</span>
-                        <div class="item-info">
-                            <h3>AREIA</h3>
-                            <p>Construção civil de alta performance, atendendo diferentes necessidades de obras.</p>
+                <h2 class="section-label">Portfólio de Matérias-Primas</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1590069414567-99933175f16e?auto=format&fit=crop&q=80&w=600" alt="Areia">
+                        <div class="gallery-overlay">
+                            <h3>Areia Penerada</h3>
+                            <p>Pureza e granulometria controlada para acabamentos finos.</p>
                         </div>
                     </div>
-                    <div class="offering-item" style="--bg-image: url('https://images.unsplash.com/photo-1533038590847-af6edbe33f9c?auto=format&fit=crop&q=80&w=800')">
-                        <span class="item-num">02</span>
-                        <div class="item-info">
-                            <h3>TERRA</h3>
-                            <p>Terra para aterros, nivelamentos e jardinagem, conforme a necessidade do cliente.</p>
+                    <div class="gallery-item">
+                        <img src="https://images.unsplash.com/photo-1533038590847-af6edbe33f9c?auto=format&fit=crop&q=80&w=600" alt="Terra">
+                        <div class="gallery-overlay">
+                            <h3>Terra Nutritiva</h3>
+                            <p>Ideal para aterros e nivelamentos de alta precisão.</p>
                         </div>
                     </div>
-                    <div class="offering-item" style="--bg-image: url('https://images.unsplash.com/photo-1533038590847-af6edbe33f9c?auto=format&fit=crop&q=80&w=800')">
-                        <span class="item-num">03</span>
-                        <div class="item-info">
-                            <h3>PEDRA</h3>
-                            <p>Pedras para construção, drenagem, paisagismo e outras aplicações.</p>
-                        </div>
-                    </div>
-                    <div class="offering-item" style="--bg-image: url('https://images.unsplash.com/photo-1533038590847-af6edbe33f9c?auto=format&fit=crop&q=80&w=800')">
-                        <span class="item-num">04</span>
-                        <div class="item-info">
-                            <h3>BRITA</h3>
-                            <p>Alta qualidade para concreto, fundações, pavimentação e demais serviços.</p>
-                        </div>
-                    </div>
-                    <div class="offering-item" style="--bg-image: url('https://images.unsplash.com/photo-1533038590847-af6edbe33f9c?auto=format&fit=crop&q=80&w=800')">
-                        <span class="item-num">05</span>
-                        <div class="item-info">
-                            <h3>BATIDO</h3>
-                            <p>Material ideal para base e compactação de terrenos, estradas e acessos.</p>
+                    <div class="gallery-item">
+                        <img src="https://unsplash.com/photos/a-close-up-of-grey-gravel-and-small-stones-JcjckGxhANs" alt="Pedra">
+                        <div class="gallery-overlay">
+                            <h3>Pedra Britada</h3>
+                            <p>Resistência máxima para fundações e pavimentação.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="services">
-            <div class="container">
-                <h2 class="section-label">Serviços de Máquinas</h2>
-                <div class="services-list">
-                    <div class="service-row"><span>01</span> Escavação de terrenos</div>
-                    <div class="service-row"><span>02</span> Nivelamento e preparação de áreas</div>
-                    <div class="service-row"><span>03</span> Aterros e desaterros</div>
-                    <div class="service-row"><span>04</span> Abertura de valas</div>
-                    <div class="service-row"><span>05</span> Limpeza de terrenos</div>
-                    <div class="service-row"><span>06</span> Remoção de entulho</div>
-                    <div class="service-row"><span>07</span> Compactação e preparação de solo</div>
-                </div>
-            </div>
-        </section>
-
+        <!-- Contact Section -->
         <section class="contact" id="contato">
             <div class="container">
-                <div class="contact-wrapper">
-                    <div class="contact-info">
-                        <h2 class="section-label">Contato</h2>
-                        <p class="contact-lead">Pronto para iniciar sua fundação?</p>
-                        <div class="contact-links">
-                            <a href="https://wa.me/5535998070905" class="contact-item">
-                                <span class="name">JOSÉ OSVALDO</span>
-                                <span class="phone">(35) 9.9159-7311</span>
-                            </a>
-                            <a href="https://wa.me/5535998070905" class="contact-item">
-                                <span class="name">THALLES</span>
-                                <span class="phone">(35) 9.9807-0905</span>
-                            </a>
-                        </div>
+                <div class="contact-layout">
+                    <div class="contact-text">
+                        <h2 class="contact-title">Inicie sua <br>Fundação</h2>
+                        <p>Atendimento personalizado via WhatsApp.</p>
                     </div>
-                    <div class="contact-form">
-                        <div class="cta-container">
-                            <a href="https://wa.me/5535998070905" class="btn-primary">Enviar Solicitação via WhatsApp</a>
-                        </div>
-                        <span class="form-footer">Atendimento imediato e personalizado.</span>
+                    <div class="contact-actions">
+                        <a href="https://wa.me/5535998070905" class="btn-main">Solicitar Orçamento</a>
                     </div>
                 </div>
             </div>
@@ -147,26 +127,13 @@
 
     <footer class="main-footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">JT AREIAS &copy; 2026</div>
-                <div class="footer-location">PASSOS / MINAS GERAIS</div>
+            <div class="footer-brand-massive">JT AREIAS</div>
+            <div class="footer-bottom">
+                <div class="footer-left">© 2026 JT AREIAS</div>
+                <div class="footer-right">PASSOS / MG</div>
             </div>
         </div>
     </footer>
-
-    <div class="rotating-badge">
-        <svg viewBox="0 0 100 100">
-            <defs>
-                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
-            </defs>
-            <circle cx="50" cy="50" r="48" fill="none" stroke="#35211A" stroke-width="1" />
-            <text>
-                <textPath href="#circlePath">
-                    ENTREGA RÁPIDA • ATENDIMENTO REGIONAL •
-                </textPath>
-            </text>
-        </svg>
-    </div>
 
     <script src="js/main.js"></script>
 </body>
