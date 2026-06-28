@@ -200,7 +200,7 @@ body {
     text-transform: uppercase;
     font-size: 0.7rem;
     letter-spacing: 0.3em;
-    color: var(--divider-color);
+    color: var(--text-secondary);
     margin-bottom: 3rem;
     display: block;
 }
@@ -267,7 +267,7 @@ body {
 
 .offerings-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1px;
     background-color: var(--border-color);
     border: 1px solid var(--border-color);
