@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JT AREIA | Terraplanagem & Materiais — Passos/MG</title>
+    <title>JT Areia | Terraplanagem & Materiais — Passos/MG</title>
     <meta name="description" content="Fornecimento de materiais de construção e serviços de terraplanagem em Passos/MG. Areia, pedra, brita, terra e maquinário pesado com 6 anos de excelência.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,12 +13,25 @@
 </head>
 <body>
 
+    <!-- ─── PROGRESSIVE BLUR ──────────────────────────────────────── -->
+    <div class="progressive-blur" aria-hidden="true">
+        <div class="pb-layer" style="--blur:0.25px;--mask:0% 0%,12.5% 100%,25% 100%,37.5% 0%"></div>
+        <div class="pb-layer" style="--blur:0.5px; --mask:12.5% 0%,25% 100%,37.5% 100%,50% 0%"></div>
+        <div class="pb-layer" style="--blur:1px;   --mask:25% 0%,37.5% 100%,50% 100%,62.5% 0%"></div>
+        <div class="pb-layer" style="--blur:2px;   --mask:37.5% 0%,50% 100%,62.5% 100%,75% 0%"></div>
+        <div class="pb-layer" style="--blur:4px;   --mask:50% 0%,62.5% 100%,75% 100%,87.5% 0%"></div>
+        <div class="pb-layer" style="--blur:8px;   --mask:62.5% 0%,75% 100%,87.5% 100%,100% 0%"></div>
+        <div class="pb-layer" style="--blur:16px;  --mask:75% 0%,87.5% 100%,100% 100%"></div>
+        <div class="pb-layer" style="--blur:32px;  --mask:87.5% 0%,100% 100%"></div>
+    </div>
+
     <!-- ─── NAVIGATION ─────────────────────────────────────────────── -->
     <nav class="nav" id="nav">
         <div class="nav-inner">
             <a href="#" class="nav-brand">JT AREIA</a>
             <div class="nav-links">
                 <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#portfolio" class="nav-link">Portfólio</a>
                 <a href="#materiais" class="nav-link">Materiais</a>
                 <a href="#servicos" class="nav-link">Serviços</a>
                 <a href="https://wa.me/5535998070905" target="_blank" class="nav-cta">Orçamento</a>
@@ -29,6 +42,7 @@
         </div>
         <div class="nav-mobile" id="navMobile">
             <a href="#sobre" class="nav-mobile-link">Sobre</a>
+            <a href="#portfolio" class="nav-mobile-link">Portfólio</a>
             <a href="#materiais" class="nav-mobile-link">Materiais</a>
             <a href="#servicos" class="nav-mobile-link">Serviços</a>
             <a href="https://wa.me/5535998070905" target="_blank" class="nav-mobile-link nav-mobile-cta">Solicitar Orçamento →</a>
@@ -39,26 +53,15 @@
 
         <!-- ─── HERO ───────────────────────────────────────────────── -->
         <section class="hero">
-            <!-- Atmospheric light leaks -->
             <div class="leak leak--orange"></div>
             <div class="leak leak--blue"></div>
 
-            <div class="hero-inner">
-                <div class="hero-image-wrap reveal-up">
-                    <img src="Imagens/img3.png" alt="Operação de terraplanagem JT Areias" class="hero-img">
-                    <div class="hero-img-overlay"></div>
-                </div>
-
-                <div class="hero-text-block">
-                    <span class="hero-label">PASSOS / MG — EST. 2018</span>
-                    <p class="hero-desc">
-                        A base sólida para a sua obra. Materiais e terraplanagem com rigor técnico.
-                    </p>
-                </div>
-            </div>
-
-            <div class="hero-title-wrap">
-                <h1 class="hero-title reveal-up">JT<br>AREIA</h1>
+            <div class="hero-center">
+                <img src="Imagens/Logo.png" alt="JT Areia Terraplanagem" class="hero-logo reveal" data-dir="up" data-delay="0">
+                <div class="hero-divider reveal" data-dir="none" data-delay="200"></div>
+                <span class="hero-label reveal" data-dir="up" data-delay="300">PASSOS / MG — EST. 2018</span>
+                <p class="hero-desc reveal" data-dir="up" data-delay="420">A base sólida para a sua obra. Materiais e terraplanagem com rigor técnico.</p>
+                <a href="https://wa.me/5535998070905" target="_blank" class="hero-cta-btn reveal" data-dir="up" data-delay="540">Solicitar Orçamento →</a>
             </div>
 
             <div class="hero-scroll-hint">
@@ -70,19 +73,19 @@
         <!-- ─── STATS ──────────────────────────────────────────────── -->
         <div class="stats-band">
             <div class="stats-grid">
-                <div class="stat-cell reveal-up" style="--delay: 0s">
+                <div class="stat-cell reveal" data-dir="up" data-delay="0">
                     <span class="stat-label">ATUAÇÃO</span>
                     <span class="stat-value">6 Anos</span>
                 </div>
-                <div class="stat-cell reveal-up" style="--delay: 0.1s">
+                <div class="stat-cell reveal" data-dir="up" data-delay="100">
                     <span class="stat-label">LOCALIZAÇÃO</span>
                     <span class="stat-value">Passos/MG</span>
                 </div>
-                <div class="stat-cell reveal-up" style="--delay: 0.2s">
+                <div class="stat-cell reveal" data-dir="up" data-delay="200">
                     <span class="stat-label">MATERIAIS</span>
                     <span class="stat-value">6 Tipos</span>
                 </div>
-                <div class="stat-cell reveal-up" style="--delay: 0.3s">
+                <div class="stat-cell reveal" data-dir="up" data-delay="300">
                     <span class="stat-label">SERVIÇOS</span>
                     <span class="stat-value">7 Itens</span>
                 </div>
@@ -92,21 +95,21 @@
         <!-- ─── ABOUT ──────────────────────────────────────────────── -->
         <section class="section" id="sobre">
             <div class="container">
-                <div class="editorial-block reveal-up">
-                    <div class="editorial-index">
+                <div class="editorial-block">
+                    <div class="editorial-index reveal" data-dir="left" data-delay="0">
                         <span class="block-num">01</span>
                         <span class="block-tag">SOBRE</span>
                     </div>
                     <div class="editorial-content">
-                        <h2 class="editorial-heading">Empresa<br>familiar com<br>propósito.</h2>
+                        <h2 class="editorial-heading reveal" data-dir="up" data-delay="100">Empresa<br>familiar com<br>propósito.</h2>
                         <div class="editorial-body">
-                            <p>
-                                Há 6 anos, a JT Areias atua com excelência no fornecimento de materiais de construção e serviços de terraplanagem em Passos/MG e região. Como empresa familiar, construímos nossa trajetória com base na honestidade, compromisso e dedicação.
+                            <p class="reveal" data-dir="up" data-delay="200">
+                                Há 6 anos, a JT Areia atua com excelência no fornecimento de materiais de construção e serviços de terraplanagem em Passos/MG e região. Como empresa familiar, construímos nossa trajetória com base na honestidade, compromisso e dedicação.
                             </p>
-                            <p>
+                            <p class="reveal" data-dir="up" data-delay="300">
                                 Nossa missão é simples: oferecer produtos de qualidade e serviços eficientes, sempre com pontualidade, segurança e responsabilidade — atendendo desde pequenas reformas até grandes empreendimentos.
                             </p>
-                            <a href="https://wa.me/5535998070905" target="_blank" class="explore-link">
+                            <a href="https://wa.me/5535998070905" target="_blank" class="explore-link reveal" data-dir="up" data-delay="400">
                                 Falar conosco <span class="arrow">→</span>
                             </a>
                         </div>
@@ -115,45 +118,63 @@
             </div>
         </section>
 
-        <!-- ─── GALLERY ────────────────────────────────────────────── -->
-        <section class="gallery-section">
-            <div class="gallery-grid">
-                <div class="gallery-item reveal-up" style="--delay: 0s">
-                    <img src="Imagens/jtareias_2566626012883387460_45459123600_2021-05-05.jpg" alt="Serviço de terraplanagem JT Areias">
-                    <div class="gallery-caption">
-                        <span>Terraplanagem em campo</span>
+        <!-- ─── PORTFOLIO CAROUSEL ─────────────────────────────────── -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+                <div class="editorial-block">
+                    <div class="editorial-index reveal" data-dir="left" data-delay="0">
+                        <span class="block-num">02</span>
+                        <span class="block-tag">PORTFÓLIO</span>
                     </div>
-                </div>
-                <div class="gallery-item reveal-up" style="--delay: 0.15s">
-                    <img src="Imagens/jtareias_2571578028327977736_45459123600_2021-05-11.jpg" alt="Maquinário JT Areias em operação">
-                    <div class="gallery-caption">
-                        <span>Maquinário próprio</span>
-                    </div>
-                </div>
-                <div class="gallery-item gallery-item--wide reveal-up" style="--delay: 0.25s">
-                    <img src="Imagens/img4.jpg" alt="Obra JT Areias">
-                    <div class="gallery-caption">
-                        <span>Execução com precisão</span>
+                    <div class="editorial-content">
+                        <h2 class="editorial-heading reveal" data-dir="up" data-delay="100">Nosso<br>trabalho<br>em campo.</h2>
                     </div>
                 </div>
             </div>
+
+            <div class="carousel-wrap">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="carousel-slide">
+                        <div class="carousel-frame">
+                            <img src="Imagens/img3.png" alt="Operação de terraplanagem JT Areia">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-frame">
+                            <img src="Imagens/jtareias_2566626012883387460_45459123600_2021-05-05.jpg" alt="Terraplanagem em campo">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-frame">
+                            <img src="Imagens/jtareias_2571578028327977736_45459123600_2021-05-11.jpg" alt="Maquinário JT Areia em operação">
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="carousel-frame">
+                            <img src="Imagens/img4.jpg" alt="Execução com precisão">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-dots" id="carouselDots"></div>
         </section>
 
         <!-- ─── MATERIALS ──────────────────────────────────────────── -->
         <section class="section" id="materiais">
             <div class="container">
-                <div class="editorial-block reveal-up">
-                    <div class="editorial-index">
-                        <span class="block-num">02</span>
+                <div class="editorial-block">
+                    <div class="editorial-index reveal" data-dir="left" data-delay="0">
+                        <span class="block-num">03</span>
                         <span class="block-tag">MATERIAIS</span>
                     </div>
                     <div class="editorial-content">
-                        <h2 class="editorial-heading">Portfólio<br>de materiais.</h2>
+                        <h2 class="editorial-heading reveal" data-dir="up" data-delay="100">Portfólio<br>de materiais.</h2>
                     </div>
                 </div>
 
                 <div class="materials-list">
-                    <div class="material-row reveal-up" style="--delay: 0s">
+                    <div class="material-row reveal" data-dir="up" data-delay="0">
                         <span class="mat-num">01</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Areia Penerada</h3>
@@ -161,7 +182,7 @@
                         </div>
                         <a href="https://wa.me/5535998070905" target="_blank" class="mat-cta">Consultar →</a>
                     </div>
-                    <div class="material-row reveal-up" style="--delay: 0.05s">
+                    <div class="material-row reveal" data-dir="up" data-delay="60">
                         <span class="mat-num">02</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Terra</h3>
@@ -169,7 +190,7 @@
                         </div>
                         <a href="https://wa.me/5535998070905" target="_blank" class="mat-cta">Consultar →</a>
                     </div>
-                    <div class="material-row reveal-up" style="--delay: 0.1s">
+                    <div class="material-row reveal" data-dir="up" data-delay="120">
                         <span class="mat-num">03</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Pedra</h3>
@@ -177,7 +198,7 @@
                         </div>
                         <a href="https://wa.me/5535998070905" target="_blank" class="mat-cta">Consultar →</a>
                     </div>
-                    <div class="material-row reveal-up" style="--delay: 0.15s">
+                    <div class="material-row reveal" data-dir="up" data-delay="180">
                         <span class="mat-num">04</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Brita</h3>
@@ -185,7 +206,7 @@
                         </div>
                         <a href="https://wa.me/5535998070905" target="_blank" class="mat-cta">Consultar →</a>
                     </div>
-                    <div class="material-row reveal-up" style="--delay: 0.2s">
+                    <div class="material-row reveal" data-dir="up" data-delay="240">
                         <span class="mat-num">05</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Batido</h3>
@@ -193,7 +214,7 @@
                         </div>
                         <a href="https://wa.me/5535998070905" target="_blank" class="mat-cta">Consultar →</a>
                     </div>
-                    <div class="material-row reveal-up" style="--delay: 0.25s">
+                    <div class="material-row reveal" data-dir="up" data-delay="300">
                         <span class="mat-num">06</span>
                         <div class="mat-info">
                             <h3 class="mat-name">Consultoria</h3>
@@ -208,43 +229,43 @@
         <!-- ─── SERVICES ───────────────────────────────────────────── -->
         <section class="section" id="servicos">
             <div class="container">
-                <div class="editorial-block reveal-up">
-                    <div class="editorial-index">
-                        <span class="block-num">03</span>
+                <div class="editorial-block">
+                    <div class="editorial-index reveal" data-dir="left" data-delay="0">
+                        <span class="block-num">04</span>
                         <span class="block-tag">SERVIÇOS</span>
                     </div>
                     <div class="editorial-content">
-                        <h2 class="editorial-heading">Serviços com<br>maquinário<br>próprio.</h2>
-                        <p class="editorial-sub">Equipamentos próprios para máxima eficiência e agilidade na execução.</p>
+                        <h2 class="editorial-heading reveal" data-dir="up" data-delay="100">Serviços com<br>maquinário<br>próprio.</h2>
+                        <p class="editorial-sub reveal" data-dir="up" data-delay="200">Equipamentos próprios para máxima eficiência e agilidade na execução.</p>
                     </div>
                 </div>
 
                 <div class="services-list">
-                    <div class="service-row reveal-up" style="--delay: 0s">
+                    <div class="service-row reveal" data-dir="left" data-delay="0">
                         <span class="srv-num">01</span>
                         <span class="srv-name">Escavação de terrenos</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.05s">
+                    <div class="service-row reveal" data-dir="left" data-delay="60">
                         <span class="srv-num">02</span>
                         <span class="srv-name">Nivelamento e preparação de áreas</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.1s">
+                    <div class="service-row reveal" data-dir="left" data-delay="120">
                         <span class="srv-num">03</span>
                         <span class="srv-name">Aterros e desaterros</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.15s">
+                    <div class="service-row reveal" data-dir="left" data-delay="180">
                         <span class="srv-num">04</span>
                         <span class="srv-name">Abertura de valas</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.2s">
+                    <div class="service-row reveal" data-dir="left" data-delay="240">
                         <span class="srv-num">05</span>
                         <span class="srv-name">Limpeza de terrenos</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.25s">
+                    <div class="service-row reveal" data-dir="left" data-delay="300">
                         <span class="srv-num">06</span>
                         <span class="srv-name">Remoção de entulho</span>
                     </div>
-                    <div class="service-row reveal-up" style="--delay: 0.3s">
+                    <div class="service-row reveal" data-dir="left" data-delay="360">
                         <span class="srv-num">07</span>
                         <span class="srv-name">Compactação e preparação de solo</span>
                     </div>
@@ -257,14 +278,13 @@
             <div class="leak leak--orange leak--bottom"></div>
             <div class="container">
                 <div class="contact-inner">
-                    <span class="contact-eyebrow reveal-up">VAMOS TRABALHAR JUNTOS</span>
-                    <h2 class="contact-title reveal-up">Pronto para<br>iniciar sua obra?</h2>
-                    <a href="https://wa.me/5535998070905" target="_blank" class="btn-wpp reveal-up">
-                        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    <span class="contact-eyebrow reveal" data-dir="up" data-delay="0">VAMOS TRABALHAR JUNTOS</span>
+                    <h2 class="contact-title reveal" data-dir="up" data-delay="150">Pronto para<br>iniciar sua obra?</h2>
+                    <a href="https://wa.me/5535998070905" target="_blank" class="btn-wpp reveal" data-dir="up" data-delay="280">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                         Solicitar Orçamento via WhatsApp
                     </a>
-
-                    <div class="contact-persons reveal-up">
+                    <div class="contact-persons reveal" data-dir="up" data-delay="400">
                         <div class="person">
                             <span class="person-role">DIRETOR</span>
                             <span class="person-name">José Osvaldo</span>
@@ -286,7 +306,7 @@
     <!-- ─── FOOTER ─────────────────────────────────────────────────── -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-top">
+            <div class="footer-top reveal" data-dir="up" data-delay="0">
                 <div class="footer-col">
                     <span class="footer-label">LOCALIZAÇÃO</span>
                     <span class="footer-val">Passos, Minas Gerais</span>
@@ -302,7 +322,7 @@
             </div>
             <div class="footer-brand-ghost" aria-hidden="true">JT AREIA</div>
             <div class="footer-bottom">
-                <span>© 2026 JT AREIA. Todos os direitos reservados.</span>
+                <span>© 2026 JT Areia. Todos os direitos reservados.</span>
                 <span>Passos / MG</span>
             </div>
         </div>
